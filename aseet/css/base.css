@@ -1,0 +1,41 @@
+:root{
+
+    --white-color : #fff;
+    --black--color : #000;
+    --text--color: #333;
+
+}
+*{
+    
+    box-sizing: inherit;
+}
+/* appline cac phan tu html */
+html{
+    /* 100% la 16 px */
+        /* san-serif : la font khong co gach chan */
+
+    font-size: 62.5%;
+    line-height : 1.6rem;
+    box-sizing: border-box;
+    /* san-serif : la font khong co gach chan */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.grid{
+    width: 1000spx;
+    max-width: 100%;
+    margin : 0 auto;
+    
+}
+/* grid : luoi */
+.grid__full-width {
+    width: 100%;
+
+}
+
+.grid__row{
+
+    display : flex;
+    flex-wrap: wrap;
+}
