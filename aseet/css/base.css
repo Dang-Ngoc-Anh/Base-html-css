@@ -2,7 +2,7 @@
 
     --white-color : #fff;
     --black--color : #000;
-    --text--color: #333;
+    --text--color: rgb(255, 255, 255);
 
 }
 *{
@@ -23,7 +23,7 @@ html{
 }
 
 .grid{
-    width: 1000spx;
+    width: 1200px;
     max-width: 100%;
     margin : 0 auto;
     
@@ -38,4 +38,15 @@ html{
 
     display : flex;
     flex-wrap: wrap;
+}
+
+/* animation     */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;;
+    }
+    to{
+        opacity: 1;
+    }
 }
